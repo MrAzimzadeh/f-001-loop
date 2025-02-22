@@ -27,4 +27,10 @@ void main() {
     print('Do-while loop: $number');
     number++;
   } while (number < 5);
+  // ForEach loop
+  // Bu döngə bir siyahıdakı hər bir elementi iterasiya edir və çap edir.
+  List<String> vegetables = ['carrot', 'potato', 'cucumber'];
+  vegetables.forEach((vegetable) {
+    print('ForEach loop: $vegetable');
+  });
 }
